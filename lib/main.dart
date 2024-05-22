@@ -22,6 +22,6 @@ class _MyApp extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return HomePage(false);
+    return HomePage(true);
   }
 }
