@@ -27,7 +27,7 @@ class _HomePage extends State<HomePage> {
   final _bluetoothClassicPlugin = BluetoothClassic();
   List<Device> _devices = [];
   List<Device> _discoveredDevices = [];
-  bool _scanning = true;
+  bool _scanning = false;
   int _deviceStatus = Device.disconnected;
   Uint8List _data = Uint8List(0);
   int cnt = 0;
